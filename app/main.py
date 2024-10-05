@@ -24,8 +24,8 @@ def add_items(item: Annotated[Items, Depends()]):
 
 
 @app.delete("/items")
-def delete_items(item: Annotated[Items, Depends()]):
-    items.remove(item)
+def delete_items(id: int):
+    items.remove(items[id])
     return items
 
 
