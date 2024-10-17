@@ -1,0 +1,15 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact-Success Page</title>
+    <link rel="stylesheet" href="{% static 'styles/styles1.css'%}">
+</head>
+<body>
+    <h1 class="success">Your Form is Submitted!</h1>
+    <img src="{% static 'images/contact-success.png'%}" alt="Form is submitted!" class="success">
+    <br> <br>
+    <a href="{% url 'home' %}">Back to home page</a>
+</body>
+</html>

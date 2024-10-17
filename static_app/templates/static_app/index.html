@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Showcase of Static in Django</title>
+    <link rel="stylesheet" href="{% static 'styles/styles.css'%}">
+</head>
+<body>
+  <h1>Trying using Static in Django</h1>
+  <p>Static Django is kinda useful, but kinda strange in same way.</p>
+  <img src="{% static 'images/Django-Logo.png' %}">
+
+
+  <script src="{% static 'js/script.js' %}"></script>
+</body>
+</html>

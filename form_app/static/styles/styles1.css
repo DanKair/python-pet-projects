@@ -1,0 +1,59 @@
+*{
+  padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+img{
+    max-width: 75%;
+}
+
+button{
+    background-color: #008F51;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+button:hover{
+    background-color: #1c6a0e ;
+}
+
+/* Form Styling */
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 4p 8px #0000;
+    padding: 20px;
+}
+
+label{
+    font-weight: bold;
+}
+
+/* Success Page */
+
+.success{
+    color: #69bb5b;
+}
+
+a{
+    margin-top: 25rem;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #008F51;
+    border-radius: 5px;
+}
