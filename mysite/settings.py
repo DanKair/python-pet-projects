@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'asiatours.apps.AsiatoursConfig',
     'static_app',
     'form_app',
+    'authApp'
 ]
 
 MIDDLEWARE = [
@@ -126,7 +127,9 @@ STATIC_URL = 'static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
     os.path.join(BASE_DIR, 'static1'),
+    os.path.join(BASE_DIR, 'static2'),
 )
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
